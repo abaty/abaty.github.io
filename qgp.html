@@ -77,16 +77,8 @@
 													<source src="https://youtu.be/Sqgc1MU1x9M" type="video/mp4">
 												  Your browser does not support the video tag.
 												  </video></center>-->
-												  <div class="auto-resizable-iframe">
-													<div>
-													  <iframe frameborder="0" allowfullscreen="" src="http://www.youtube.com/embed/Sqgc1MU1x9M"></iframe>
-													</div>
-												  </div>
-
-												  <div class="auto-resizable-iframe">
-												  <!-- <div id="player" width="75%"></div> -->
-												 
-
+												  <!-- <div class="auto-resizable-iframe"> -->
+												  <div id="player" width="75%">
     <script>
       // 2. This code loads the IFrame Player API code asynchronously.
       var tag = document.createElement('script');
@@ -100,8 +92,8 @@
       var player;
       function onYouTubeIframeAPIReady() {
         player = new YT.Player('player', {
-          width: '640',
-		  height: '360',
+          width: '460',
+		  height: '258',
           videoId: 'Sqgc1MU1x9M',
           playerVars: {
             'playsinline': 1
@@ -131,8 +123,8 @@
       function stopVideo() {
         player.stopVideo();
       }
-    </script></div></center>
-
+    </script></div></center></br>
+	
 
 												 
 												<p class="style3">
